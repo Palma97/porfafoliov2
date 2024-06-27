@@ -1,5 +1,5 @@
 import "./App.css";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import About from "./components/About/About.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import { Home } from "./components/Home/Home.jsx";
@@ -8,7 +8,6 @@ import Studies from "./components/Studies/Studies.jsx";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
-  const location = useLocation();
   return (
     <div className="App">
       <AnimatePresence>
